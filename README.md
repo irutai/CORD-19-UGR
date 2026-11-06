@@ -1,0 +1,5 @@
+# CORD-19-UGR
+
+CORD-19-UGR is a subset of CORD-19 dataset (https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge), where author names are not disambiguated, so we applied basic preprocessing steps to clean the data and handle similar author names (see [Campos et al., 2024] for more details). To mitigate issues arising from name ambiguity, we restricted the dataset to authors with at least 20 publications under their canonical full names. This threshold helps reduce noise from incorrectly merged or split author profiles, while preserving a sufficiently large and representative subset of authors for meaningful evaluation. As a result, the collection contains 130,477 articles, 11,070 venues, and 7,387 authors. Titles, abstracts, keywords, authors’ names, and venue names were also used in this collection.
+
+[Campos et al., 2024] de Campos LM,  Fernández-Luna JM, Huete JF,  Ribadas-Pena FJ,  Bolaños N  (2024)   Information retrieval and machine learning methods for academic expert finding. Algorithms 17(2),51.
